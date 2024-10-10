@@ -1,0 +1,39 @@
+/* App.css */
+.app {
+  text-align: center; /* Center all text in the app */
+}
+
+.alert {
+  margin: 10px;
+  padding: 10px;
+  background-color: yellow;
+  color: black;
+  border: 1px solid black;
+  transition: opacity 0.5s ease;
+}
+
+.navbar {
+  padding: 10px;
+  background-color: blue;
+}
+
+.navbar ul {
+  list-style-type: none;
+  padding: 0;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.navbar li {
+  margin: 0 10px;
+}
+
+.navbar a {
+  text-decoration: none; /* Remove underline */
+  color: white;
+}
+
+.navbar-title {
+  float: left;
+  color: white;
+}
